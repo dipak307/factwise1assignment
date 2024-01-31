@@ -1,0 +1,154 @@
+
+.input1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* App.css */
+
+
+.card {
+  position: relative;
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #0056b3;
+}
+
+.card:hover {
+  background-color: #45c4d8;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  background-color: #eee;
+}
+
+.toggle-symbol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.additional-details {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.toggle-area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.action-buttons button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Card.css */
+
+.card1 {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+
+.left-side {
+  font-weight: bold;
+}
+
+.right-side {
+  font-size: 20px;
+}
+
+.content {
+  display: none;
+  padding: 10px;
+}
+.open .content {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.buttons {
+  margin-top: 10px;
+  text-align: right;
+}
+
+button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+ 
+
+
+.carddiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+}
+

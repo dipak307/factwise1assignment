@@ -1,0 +1,57 @@
+/* Card.css */
+
+.name-container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  padding: 5px;
+}
+.card-container1 {
+  height: 400px;
+  text-align: left;
+  align-items: center;
+}
+
+.card1 {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.open1 {
+  background-color: #c1e7a6;
+}
+
+.closed1 {
+  background-color: #f0c0b7;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.additional-info1 {
+  padding: 5px;
+}
+.toggle-symbol1 {
+  justify-content: right; 
+  font-size: 24px;
+}
+
+
